@@ -1,13 +1,5 @@
 <div align="center">
 
-  <!-- Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,20,12,0&height=220&section=header&text=Manuth%20Methnidu&fontSize=42&fontAlignY=38&animation=fadeIn&desc=%E2%9C%A8%20Crafting%20Modern%20Web%20Experiences%20%7C%20Full-Stack%20Developer&descAlignY=60&descAlign=50" width="100%" alt="Header Banner" />
-
-  <!-- Animated Typing SVG -->
-  <a href="https://github.com/ManuthMethnidu">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&pause=1000&color=38BDF8&center=true&vCenter=true&random=false&width=620&lines=Hi+there!+%F0%9F%91%8B+I'm+Manuth+Methnidu;Full-Stack+%26+Frontend+Engineer+%F0%9F%9A%80;Creator+of+Termy+ICT+%26+DFD+Master+%F0%9F%92%A1;Crafting+Modern%2C+Fast+%26+Reactive+Apps;Passionate+about+UI%2FUX+%26+Open+Source+%E2%9D%A4%EF%B8%8F" alt="Typing SVG" />
-  </a>
-
   <br/><br/>
 
   <!-- Badges -->
