@@ -14,7 +14,7 @@
     <line x1="750" y1="0" x2="750" y2="360" />
   </g>
 
-  <g transform="translate(640, 200)" opacity="0.22">
+  <g transform="translate(640, 200)" opacity="0.25">
     <path d="M -210 0 Q 0 -130 210 0 Q 0 130 -210 0 Z" fill="#140408" stroke="#dc143c" stroke-width="2" />
     <path d="M -225 -5 Q 0 -145 225 -5" fill="none" stroke="#dc143c" stroke-width="3.5" />
     <circle cx="0" cy="0" r="82" fill="#090204" stroke="#dc143c" stroke-width="3" />
@@ -77,13 +77,13 @@
     <rect x="410" y="182" width="4" height="52" fill="#dc143c" />
     <text x="426" y="204" fill="#ff2a4b" font-weight="bold" font-size="14">ECHOES</text>
     <text x="510" y="204" fill="#666677">[echoes.mteck.tech]</text>
-    <text x="426" y="224" fill="#cccccc" font-size="12">Ad-free PWA music player, synced lyrics and offline cache</text>
+    <text x="426" y="224" fill="#cccccc" font-size="12">Ad-free PWA music player, synced lyrics + offline cache</text>
 
     <rect x="410" y="246" width="445" height="52" fill="#0c0c12" fill-opacity="0.82" stroke="#2a2412" stroke-width="1" />
     <rect x="410" y="246" width="4" height="52" fill="#d4af37" />
     <text x="426" y="268" fill="#d4af37" font-weight="bold" font-size="14">ECHORA</text>
     <text x="510" y="268" fill="#666677">[STREAMING ENGINE]</text>
-    <text x="426" y="288" fill="#cccccc" font-size="12">High-speed media streaming engine and core architecture</text>
+    <text x="426" y="288" fill="#cccccc" font-size="12">High-speed media streaming engine + core architecture</text>
   </g>
 
   <line x1="45" y1="314" x2="855" y2="314" stroke="#222230" stroke-width="1" />
