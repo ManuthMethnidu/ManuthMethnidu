@@ -1,42 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="900" height="380">
-  <!-- Deep Obsidian Base -->
-  <rect width="900" height="380" fill="#09090d" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="900" height="360">
+  <rect width="900" height="360" fill="#08080c" />
 
-  <!-- Direct Tactical Grid Lines (No <defs> or url() so GitHub never blocks it) -->
-  <g stroke="#14141d" stroke-width="1">
+  <g stroke="#12121a" stroke-width="1">
     <line x1="0" y1="60" x2="900" y2="60" />
     <line x1="0" y1="120" x2="900" y2="120" />
     <line x1="0" y1="180" x2="900" y2="180" />
     <line x1="0" y1="240" x2="900" y2="240" />
     <line x1="0" y1="300" x2="900" y2="300" />
-    <line x1="150" y1="0" x2="150" y2="380" />
-    <line x1="300" y1="0" x2="300" y2="380" />
-    <line x1="450" y1="0" x2="450" y2="380" />
-    <line x1="600" y1="0" x2="600" y2="380" />
-    <line x1="750" y1="0" x2="750" y2="380" />
+    <line x1="150" y1="0" x2="150" y2="360" />
+    <line x1="300" y1="0" x2="300" y2="360" />
+    <line x1="450" y1="0" x2="450" y2="360" />
+    <line x1="600" y1="0" x2="600" y2="360" />
+    <line x1="750" y1="0" x2="750" y2="360" />
   </g>
 
-  <!-- Background Watermark: Giant Winged Geass Sigil -->
-  <g transform="translate(450, 195) scale(1.45)" opacity="0.14" fill="none" stroke="#dc143c" stroke-width="3.5" stroke-linejoin="miter">
-    <polygon points="0,-110 -18,-35 0,-15 18,-35" fill="#dc143c" />
-    <polygon points="0,-10 -28,-40 0,35 28,-40" />
-    <polyline points="-18,-35 -95,-95 -70,-20 -150,-55 -105,10 -185,0 -115,45 -50,35 -25,65 0,40" />
-    <polyline points="18,-35 95,-95 70,-20 150,-55 105,10 185,0 115,45 50,35 25,65 0,40" />
-    <polyline points="-25,65 -45,105 0,80 45,105 25,65" />
+  <g transform="translate(640, 200)" opacity="0.22">
+    <path d="M -210 0 Q 0 -130 210 0 Q 0 130 -210 0 Z" fill="#140408" stroke="#dc143c" stroke-width="2" />
+    <path d="M -225 -5 Q 0 -145 225 -5" fill="none" stroke="#dc143c" stroke-width="3.5" />
+    <circle cx="0" cy="0" r="82" fill="#090204" stroke="#dc143c" stroke-width="3" />
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#d4af37" stroke-width="1" stroke-dasharray="8 6" />
+    <ellipse cx="0" cy="0" rx="14" ry="32" fill="#dc143c" opacity="0.35" />
+    <g fill="none" stroke="#ff1e42" stroke-width="4" stroke-linejoin="miter" stroke-linecap="square">
+      <polygon points="0,-76 -12,-28 0,-12 12,-28" fill="#ff1e42" />
+      <polyline points="-12,-28 -58,-48 -42,-8 -68,8 -38,24 -18,45 0,28 18,45 38,24 68,8 42,-8 58,-48 12,-28" />
+      <polyline points="-22,38 -36,68 0,52 36,68 22,38" />
+      <path d="M -48 -18 A 54 54 0 0 0 -28 46" stroke-width="3" />
+      <path d="M 48 -18 A 54 54 0 0 1 28 46" stroke-width="3" />
+    </g>
   </g>
 
-  <!-- Outer Knightmare HUD Frame -->
-  <rect x="14" y="14" width="872" height="352" fill="none" stroke="#262633" stroke-width="1.5" />
-  <rect x="20" y="20" width="860" height="340" fill="none" stroke="#dc143c" stroke-width="1" opacity="0.4" />
+  <rect x="14" y="14" width="872" height="332" fill="none" stroke="#222230" stroke-width="1.5" />
+  <rect x="20" y="20" width="860" height="320" fill="none" stroke="#dc143c" stroke-width="1" opacity="0.45" />
 
-  <!-- Heavy Tactical Corner Brackets (Crimson & Imperial Gold) -->
   <path d="M 14 48 L 14 14 L 48 14" fill="none" stroke="#dc143c" stroke-width="3.5" />
   <path d="M 852 14 L 886 14 L 886 48" fill="none" stroke="#dc143c" stroke-width="3.5" />
-  <path d="M 14 332 L 14 366 L 48 366" fill="none" stroke="#d4af37" stroke-width="3.5" />
-  <path d="M 852 366 L 886 366 L 886 332" fill="none" stroke="#d4af37" stroke-width="3.5" />
+  <path d="M 14 312 L 14 346 L 48 346" fill="none" stroke="#d4af37" stroke-width="3.5" />
+  <path d="M 852 346 L 886 346 L 886 312" fill="none" stroke="#d4af37" stroke-width="3.5" />
 
-  <!-- Top Telemetry Header Bar -->
-  <rect x="20" y="20" width="860" height="36" fill="#111118" />
+  <rect x="20" y="20" width="860" height="36" fill="#101017" />
   <line x1="20" y1="56" x2="880" y2="56" stroke="#dc143c" stroke-width="1.5" />
   <rect x="20" y="20" width="8" height="36" fill="#dc143c" />
 
@@ -47,63 +48,49 @@
     [ GEASS : ABSOLUTE // ONLINE ]
   </text>
 
-  <!-- Identity & Quote Block -->
   <text x="45" y="96" font-family="monospace" font-size="24" font-weight="bold" fill="#ffffff" letter-spacing="1">
     MANUTH METHNIDU <tspan fill="#dc143c">//</tspan> <tspan fill="#d4af37">MTECK</tspan>
   </text>
-  <text x="45" y="122" font-family="monospace" font-size="14" font-style="italic" fill="#dc143c" letter-spacing="0.5">
+  <text x="45" y="122" font-family="monospace" font-size="14" font-style="italic" fill="#ff2a4b" letter-spacing="0.5">
     "I commit evil to destroy a greater evil."
   </text>
 
-  <!-- Divider -->
   <line x1="45" y1="140" x2="855" y2="140" stroke="#262633" stroke-width="1" />
   <rect x="45" y="139" width="60" height="3" fill="#d4af37" />
 
-  <!-- Left Column: System Telemetry -->
   <g font-family="monospace" font-size="13">
-    <text x="45" y="172" fill="#d4af37" font-weight="bold" letter-spacing="1.5">❖ SYSTEM TELEMETRY</text>
+    <text x="45" y="170" fill="#d4af37" font-weight="bold" letter-spacing="1.5">SYSTEM TELEMETRY</text>
 
-    <rect x="45" y="186" width="330" height="128" fill="#0d0d14" stroke="#222230" stroke-width="1" />
-    <rect x="45" y="186" width="3" height="128" fill="#d4af37" />
+    <rect x="45" y="182" width="340" height="116" fill="#0c0c12" fill-opacity="0.85" stroke="#222230" stroke-width="1" />
+    <rect x="45" y="182" width="3" height="116" fill="#d4af37" />
 
-    <text x="62" y="212" fill="#888899">OS     :: <tspan fill="#ffffff" font-weight="bold">Arch Linux (CachyOS)</tspan></text>
-    <text x="62" y="236" fill="#888899">WM     :: <tspan fill="#ffffff">Hyprland / Wayland</tspan></text>
-    <text x="62" y="260" fill="#888899">STACK  :: <tspan fill="#ffffff">Python · TypeScript · React</tspan></text>
-    <text x="62" y="284" fill="#888899">BUILD  :: <tspan fill="#ffffff">Vite · Web Audio DSP · Linux</tspan></text>
-    <text x="62" y="304" fill="#888899">LOC    :: <tspan fill="#dc143c" font-weight="bold">Colombo, LK [AREA-11]</tspan></text>
+    <text x="62" y="208" fill="#888899">OS     :: <tspan fill="#ffffff" font-weight="bold">Arch Linux // Hyprland</tspan></text>
+    <text x="62" y="232" fill="#888899">METHOD :: <tspan fill="#ff2a4b" font-weight="bold">AI-Augmented Engineering</tspan></text>
+    <text x="62" y="256" fill="#888899">STACK  :: <tspan fill="#ffffff">Python / TypeScript / React</tspan></text>
+    <text x="62" y="280" fill="#888899">CORE   :: <tspan fill="#d4af37">AI Agents / Streaming / PWA</tspan></text>
   </g>
 
-  <!-- Right Column: Deployed Tactical Modules -->
   <g font-family="monospace" font-size="13">
-    <text x="405" y="172" fill="#dc143c" font-weight="bold" letter-spacing="1.5">❖ ACTIVE DEPLOYMENTS</text>
+    <text x="410" y="170" fill="#ff2a4b" font-weight="bold" letter-spacing="1.5">ACTIVE DEPLOYMENTS</text>
 
-    <rect x="405" y="186" width="450" height="28" fill="#0d0d14" stroke="#222230" stroke-width="1" />
-    <rect x="405" y="186" width="3" height="28" fill="#dc143c" />
-    <text x="418" y="205" fill="#dc143c" font-weight="bold">ECHOES</text>
-    <text x="515" y="205" fill="#cccccc">Ad-free PWA music player & offline cache</text>
+    <rect x="410" y="182" width="445" height="52" fill="#0c0c12" fill-opacity="0.82" stroke="#2a1219" stroke-width="1" />
+    <rect x="410" y="182" width="4" height="52" fill="#dc143c" />
+    <text x="426" y="204" fill="#ff2a4b" font-weight="bold" font-size="14">ECHOES</text>
+    <text x="510" y="204" fill="#666677">[echoes.mteck.tech]</text>
+    <text x="426" y="224" fill="#cccccc" font-size="12">Ad-free PWA music player, synced lyrics and offline cache</text>
 
-    <rect x="405" y="220" width="450" height="28" fill="#0d0d14" stroke="#222230" stroke-width="1" />
-    <rect x="405" y="220" width="3" height="28" fill="#d4af37" />
-    <text x="418" y="239" fill="#d4af37" font-weight="bold">TERMY</text>
-    <text x="515" y="239" fill="#cccccc">Interactive A/L ICT MCQ recall platform</text>
-
-    <rect x="405" y="254" width="450" height="28" fill="#0d0d14" stroke="#222230" stroke-width="1" />
-    <rect x="405" y="254" width="3" height="28" fill="#dc143c" />
-    <text x="418" y="273" fill="#dc143c" font-weight="bold">SKETCHO</text>
-    <text x="515" y="273" fill="#cccccc">Handwritten math/circuit sketch search</text>
-
-    <rect x="405" y="288" width="450" height="28" fill="#0d0d14" stroke="#222230" stroke-width="1" />
-    <rect x="405" y="288" width="3" height="28" fill="#d4af37" />
-    <text x="418" y="307" fill="#d4af37" font-weight="bold">DFD-SIM</text>
-    <text x="515" y="307" fill="#cccccc">Interactive React Data Flow simulator</text>
+    <rect x="410" y="246" width="445" height="52" fill="#0c0c12" fill-opacity="0.82" stroke="#2a2412" stroke-width="1" />
+    <rect x="410" y="246" width="4" height="52" fill="#d4af37" />
+    <text x="426" y="268" fill="#d4af37" font-weight="bold" font-size="14">ECHORA</text>
+    <text x="510" y="268" fill="#666677">[STREAMING ENGINE]</text>
+    <text x="426" y="288" fill="#cccccc" font-size="12">High-speed media streaming engine and core architecture</text>
   </g>
 
-  <!-- Bottom HUD Status Rail -->
-  <line x1="45" y1="332" x2="855" y2="332" stroke="#262633" stroke-width="1" />
-  <text x="45" y="350" font-family="monospace" font-size="11" fill="#666677" letter-spacing="1">
-    SYS.FRAME :: KMF-SHINKIRO // YGGDRASIL DRIVE : <tspan fill="#2ecc71">SYNCHRONIZED</tspan>
+  <line x1="45" y1="314" x2="855" y2="314" stroke="#222230" stroke-width="1" />
+  <text x="45" y="332" font-family="monospace" font-size="11" fill="#666677" letter-spacing="1">
+    SYS.FRAME :: ARCH-LINUX // AI-COPILOT : <tspan fill="#2ecc71">ENGAGED</tspan>
   </text>
-  <text x="855" y="350" font-family="monospace" font-size="11" fill="#d4af37" text-anchor="end" letter-spacing="1">
-    SELECT UPLINK BELOW ▼
+  <text x="855" y="332" font-family="monospace" font-size="11" fill="#d4af37" text-anchor="end" letter-spacing="1">
+    UPLINKS ACTIVE BELOW
   </text>
 </svg>
