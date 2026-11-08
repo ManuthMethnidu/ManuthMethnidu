@@ -1,8 +1,6 @@
 <div align="center">
 
-<a href="https://methnidu.dpdns.org">
-  <img src="./hud.svg" alt="Manuth Methnidu - Tactical Console" width="100%" />
-</a>
+[![Manuth Methnidu - Tactical Console](./hud.svg)](https://methnidu.dpdns.org)
 
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-methnidu.dpdns.org-dc143c?style=flat-square&labelColor=09090d)](https://methnidu.dpdns.org)
 [![Echoes](https://img.shields.io/badge/ECHOES-echoes.mteck.tech-d4af37?style=flat-square&labelColor=09090d)](https://echoes.mteck.tech)
